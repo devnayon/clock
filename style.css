@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: radial-gradient(circle, rgba(94,0,38,1) 0%, rgba(3,8,13,1) 100%);
+
+}
+.clock{
+    height: 100vh;
+}
+.time{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#finalTime{
+    color: #ffffff;
+    font-size: 15px;
+}
+#tarik{
+    color: #afafaf;
+    font-size: 14px;
+    font-weight: 500;
+}
